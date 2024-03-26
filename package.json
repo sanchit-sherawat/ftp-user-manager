@@ -1,7 +1,7 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "k",
+  "name": "ftp-user-manager",
+  "version": "1.0.1",
+  "description": "FTP User Manager is a Node.js package for managing FTP users on a remote server via SSH.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -35,8 +35,6 @@
   },
   "dependencies": {
     "ssh2": "^1.15.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
+
 }

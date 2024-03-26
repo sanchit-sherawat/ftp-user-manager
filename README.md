@@ -1,14 +1,14 @@
-FTP User Manager
+## FTP User Manager
 FTP User Manager is a Node.js package for managing FTP users on a remote server via SSH.
 
-Features
-Create new FTP users
-Update passwords for existing FTP users
-Delete FTP users
-Installation
-You can install the FTP User Manager package via npm:
+# Features
+- Create new FTP users
+- Update passwords for existing FTP users
+- Delete FTP users
+# Installation
+- You can install the FTP User Manager package via npm:
 
-bash
+```bash
 Copy code
 npm install ftp-user-manager
 Usage
@@ -38,20 +38,22 @@ updateUser(sshConfig, 'existinguser', 'newpassword456')
 deleteUser(sshConfig, 'existinguser')
     .then(result => console.log(result))
     .catch(error => console.error(error));
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
+# License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-Adjust the SSH configuration and usage examples according to your package's requirements. Include any additional information or usage examples that you think would be helpful for users. Make sure to also provide information about installation, dependencies, and any other relevant details about your package.
+- A just the SSH configuration and usage examples according to your package's requirements. Include any additional information or usage examples that you think would be helpful for users. Make sure to also provide information about installation, dependencies, and any other relevant details about your package.
 
-You can further enhance your README with sections like:
+- You can further enhance your README with sections like:
 
-Introduction
-Installation instructions (including prerequisites)
-Configuration
-Examples
-API documentation
-Contribution guidelines
-Testing instructions
-Troubleshooting
-Support/contact information
-Ensure that your README is clear, concise, and well-formatted to make it easy for users to understand and utilize your npm package.
+# Introduction
+- Installation instructions (including prerequisites)
+- Configuration
+- Examples
+# API documentation
+- Contribution guidelines
+
+- Testing instructions
+- Troubleshooting
+- Support/contact information
+
