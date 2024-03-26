@@ -1,0 +1,39 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "k",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchit-sherawat/ftp-user-manager.git"
+  },
+  "keywords": [
+    "ftp",
+    "user-management",
+    "ssh",
+    "remote",
+    "server",
+    "administration",
+    "system",
+    "utility",
+    "nodejs"
+  ],
+  "author": "sanchit-sherawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchit-sherawat/ftp-user-manager/issues"
+  },
+  "homepage": "https://github.com/sanchit-sherawat/ftp-user-manager#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "ssh2": "^1.15.0"
+  }
+}
