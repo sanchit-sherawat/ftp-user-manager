@@ -35,5 +35,8 @@
   },
   "dependencies": {
     "ssh2": "^1.15.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
