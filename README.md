@@ -9,11 +9,11 @@ FTP User Manager is a Node.js package for managing FTP users on a remote server 
 - You can install the FTP User Manager package via npm:
 
 ```bash
-Copy code
+
 npm install ftp-user-manager
 Usage
 javascript
-Copy code
+
 const { createUser, updateUser, deleteUser } = require('ftp-user-manager');
 
 // SSH configuration
@@ -40,7 +40,7 @@ deleteUser(sshConfig, 'existinguser')
     .catch(error => console.error(error));
 ```
 # License
-- This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 - A just the SSH configuration and usage examples according to your package's requirements. Include any additional information or usage examples that you think would be helpful for users. Make sure to also provide information about installation, dependencies, and any other relevant details about your package.
 
